@@ -1,0 +1,29 @@
+Make sure that 'ffmpeg' installed on your system.
+
+Then take care of your config file, example of this file:
+
+
+config.json example:
+
+{
+
+    "video/sample_mpeg4.mp4":  { 
+          "name": "overtake", 
+          "timestamp": "3210", 
+          "resolution": "190x240"
+    },
+ 
+    "video/sample_mpeg4_2.mp4":  { 
+          "name": "overtake", 
+          "timestamp": "3210", 
+          "resolution": "190x240"
+    }
+
+
+}
+
+Execution:
+
+./screenshoter.rb config.json
+
+
